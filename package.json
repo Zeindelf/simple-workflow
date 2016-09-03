@@ -1,0 +1,35 @@
+{
+  "name": "workflow-simple",
+  "version": "0.0.1",
+  "description": "Simple Workflow",
+  "main": "main.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wellington Barreto <zeindelf@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "glob": "^7.0.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^5.0.0"
+  }
+}

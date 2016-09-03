@@ -1,0 +1,19 @@
+body {
+	font-family: $_font-primary;
+	font-size: $_font-size-base;
+
+	background-color: $_body-bg;
+	color: $_text-color-base;
+
+	line-height: 1.2;
+}
+
+.main-header,
+.main-content,
+.main-footer {
+    &__container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

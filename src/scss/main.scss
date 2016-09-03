@@ -1,0 +1,21 @@
+/**
+ * Libraries
+ */
+
+/*
+ * Dependencies and Core
+ */
+@import "variables/variables";
+@import "variables/mixins";
+@import "core/reset";
+
+/*
+ * Style Geral
+ */
+@import "modules/base";
+
+@import "modules/header/main-header";
+
+@import "modules/content/main-content";
+
+@import "modules/footer/main-footer";
