@@ -1,0 +1,7 @@
+
+locations = [
+    { lat: -23.5625593, lng: -46.6918872, address: 'PRAÇA DOS OMAGUÁS, 34 - PINHEIROS - SÃO PAULO - SP' }
+    { lat: -23.5659064, lng: -46.6515637, address: 'AV. PAULISTA, 901 TÉRREO MEZ. E 1º SUBSOLO, - BELA VISTA - SÃO PAULO - SP' }
+    { lat: -23.6225865, lng: -46.6984903, address: 'AVENIDA ROQUE PETRONI JÚNIOR, 1089 - VILA GERTRUDES - SÃO PAULO - SP'}
+    { lat: -22.846867, lng: -47.06088, address: 'AV. GUILHERME CAMPOS, 500 - SANTA GENEBRA - CAMPINAS - SP' }
+]
