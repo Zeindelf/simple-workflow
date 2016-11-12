@@ -1,5 +1,5 @@
 body {
-	font-family: $_font-primary;
+	font-family: $_font-family-base;
 	font-size: $_font-size-base;
 
 	background-color: $_body-bg;
@@ -12,8 +12,15 @@ body {
 .main-content,
 .main-footer {
     &__container {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
+        @include container-fixed;
+        max-width: 1280px;
     }
+
+    &__content {
+        @include make-row;
+    }
+}
+
+.clearfix {
+    @include clearfix;
 }

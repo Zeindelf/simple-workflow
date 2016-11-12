@@ -1,1 +1,18 @@
-//
+
+/**
+ * Media Queries
+ * Mobile first
+ */
+@mixin mq($_width, $_type: min) {
+    @if map_has_key($_breakpoints, $_width) {
+        $_width: map_get($_breakpoints, $_width);
+    }
+
+    @if $_type == max {
+        $_width: $_width - 1px;
+    }
+
+    @media only screen and (#{$_type}-width: $_width) {
+        @content;
+    }
+}

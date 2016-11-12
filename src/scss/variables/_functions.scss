@@ -1,0 +1,12 @@
+
+/**
+ * Organização de z-index
+ */
+@function z($_name) {
+    @if index($_z-indexes, $_name) {
+        @return (length($_z-indexes) - index($_z-indexes, $_name)) + 1;
+    } @else {
+        @warn 'There is no item "#{$_name}" in this list; choose one of: #{$_z-indexes}';
+        @return null;
+    }
+}

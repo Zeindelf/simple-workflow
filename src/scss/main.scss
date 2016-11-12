@@ -1,21 +1,20 @@
 /**
  * Libraries
  */
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 /*
  * Dependencies and Core
  */
-@import "variables/variables";
-@import "variables/mixins";
-@import "core/reset";
+@import "variables/_variables.scss";
+@import "variables/_functions.scss";
+@import "variables/_mixins.scss";
+@import "core/_reset.scss";
 
 /*
  * Style Geral
  */
-@import "modules/base";
-
-@import "modules/header/main-header";
-
-@import "modules/content/main-content";
-
-@import "modules/footer/main-footer";
+@import "modules/header/_main-header.scss";
+@import "modules/content/_main-content.scss";
+@import "modules/footer/_main-footer.scss";

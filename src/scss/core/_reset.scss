@@ -11,23 +11,24 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  border: 0;
   margin: 0;
   padding: 0;
-  border: 0;
+  outline: none;
 
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
+embed,
+iframe,
+iframe[style],
 img,
 object,
-embed,
-video,
-iframe,
-iframe[style] {
-  max-width: 100%;
+video {
   height: auto;
+  max-width: 100%;
 }
 
 a {

@@ -1,9 +1,9 @@
 /**
  * Diretórios
  */
-let src   = './src/'
-let dist  = './dist/'
-let tasks = './tasks/'
+const src   = './src/'
+const dist  = './dist/'
+const tasks = './tasks/'
 
 /**
  * Dependências
